@@ -1,9 +1,9 @@
 <?php
 /*Variables de conección*/
 $servidor='localhost';
-$usuario='root';
-$clave='';
-$basedatos='ventas';
+$usuario='claudio';
+$clave='huancahuire';
+$basedatos='bd_ventas';
 
 /*variable conección*/
 $coneccion = mysqli_connect($servidor, $usuario, $clave, $basedatos);
