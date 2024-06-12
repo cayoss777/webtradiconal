@@ -1,7 +1,6 @@
 
 <?php
 include 'conecion.php';
-
 ?>
 <table class="table table-striped">
    <thead>
@@ -22,7 +21,7 @@ include 'conecion.php';
           <td>'.$rows['vendedor'].'</td>
           <td>'.$rows['direccion'].'</td>
           <td>'.$rows['fechaventa'].'</td>
-          <td><a class="btn btn-danger btn-xs" href="conexion_mostrar.php?eli_id='.$rows['id'].'">Eliminar</td>
+          <td><a class="btn btn-danger btn-xs" href="eliminar.php?eli_id='.$rows['id'].'">Eliminar</td>
           <td><a class="btn btn-info btn-xs"  href="conexion_detalle.php?det_id='.$rows['id'].'">Detalle</td>
          </tr>
        ';
